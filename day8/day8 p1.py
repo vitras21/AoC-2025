@@ -1,19 +1,35 @@
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
-point1 = (1, 2, 3)
-point2 = (4, 5, 6)
+input_data = """162,817,812
+57,618,57
+906,360,560
+592,479,940
+352,342,300
+466,668,158
+542,29,236
+431,825,988
+739,650,466
+52,470,668
+216,146,977
+819,987,18
+117,168,530
+805,96,715
+346,949,466
+970,615,88
+941,993,340
+862,61,35
+984,92,344
+425,690,689"""
 
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
+junction_boxes = []
 
-ax.scatter(point1[0], point1[1], point1[2], color='red', label='Point 1')
-ax.scatter(point2[0], point2[1], point2[2], color='blue', label='Point 2')
+lines = input_data.strip().split('\n')
 
-ax.set_xlabel('X-axis')
-ax.set_ylabel('Y-axis')
-ax.set_zlabel('Z-axis')
-ax.set_title('3D Points Plot')
-ax.legend()
+for line in lines:
+    pts = line.strip().split(',')
+    x, y, z = map(int, pts)
 
-plt.show()
+junction_boxes.append((x, y, z))
+
+loadednum = len(junction_boxes)
+
+
