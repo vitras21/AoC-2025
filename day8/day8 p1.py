@@ -46,4 +46,8 @@ for i, j in itertools.combinations(range(loadednum), 2):
 
 edges.sort()
 
+parent = list(range(loadednum))
+
+sizeset = [1] * N
+
 
