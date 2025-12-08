@@ -1,3 +1,8 @@
+import itertools
+import math
+
+junction_boxes = []
+edges = []
 
 input_data = """162,817,812
 57,618,57
@@ -20,8 +25,6 @@ input_data = """162,817,812
 984,92,344
 425,690,689"""
 
-junction_boxes = []
-
 lines = input_data.strip().split('\n')
 
 for line in lines:
@@ -32,4 +35,9 @@ junction_boxes.append((x, y, z))
 
 loadednum = len(junction_boxes)
 
+for i, j in itertools.combinations(range(loadednum), 2):
 
+    (x1, y1, z1) = junction_boxes[i]
+    (x2, y2, z2) = junction_boxes[j]
+
+    
