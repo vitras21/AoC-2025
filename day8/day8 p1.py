@@ -3,6 +3,8 @@ import math
 
 junction_boxes = []
 edges = []
+finiconection = 0
+maxcon = 1000
 
 input_data = """162,817,812
 57,618,57
@@ -50,4 +52,37 @@ parent = list(range(loadednum))
 
 sizeset = [1] * N
 
+for distance_sq, i, j in edges:
+    root_i = i
+    while root_i != parent[root_i]:
+        root_i = parent[root_i]
 
+    now_i = i
+    while now_i != root_i:
+        node_next = parent[now_i]
+        parent[now_i] = root_i
+        current_i = node_next
+
+    root_j = j
+    while root_j != parent[root_j]:
+        root_j = parent[root_j]
+
+    now_j = j
+    while now_j != root_j:
+        node_next = parent[now_j]
+        parent[now_j] = root_j
+        current_j = next_node
+
+    if root_i != root_j:
+        if sizedeset[root_i] < sizedeset[root_j]:
+            root_i, root_j = root_j, root_i
+
+        parent[root_j] = root_i
+
+        sizedeset[root_i] += sizedeset[root_j]
+        finiconection += 1
+
+        if finiconection >= maxcon:
+            break
+
+print (finiconection)
