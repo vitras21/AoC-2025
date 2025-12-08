@@ -40,4 +40,10 @@ for i, j in itertools.combinations(range(loadednum), 2):
     (x1, y1, z1) = junction_boxes[i]
     (x2, y2, z2) = junction_boxes[j]
 
-    
+    dist = (x2 - x1)**2 + (y2 - y1)**2 + (z2 - z1)**2
+
+    edges.append((distance_squared, i, j))
+
+edges.sort()
+
+
