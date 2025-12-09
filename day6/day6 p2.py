@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 grand_total = 0
 muchadoaboutthenothing = []
 Numstore = 0
