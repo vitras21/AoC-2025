@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 grid = []
 total_removed_rolls = 0
 
