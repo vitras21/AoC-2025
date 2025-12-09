@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 dial_position = 50
 zero_crossings = 0
 
