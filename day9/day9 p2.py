@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 putininput = """
 98104,50456
 98104,51682
