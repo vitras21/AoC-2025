@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 strttonew = 50
 ireallycannotnamemyvariables = 0
 zerossssssss = 0
