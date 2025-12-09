@@ -1,3 +1,6 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
 
 koords = []
 maxara = 0
