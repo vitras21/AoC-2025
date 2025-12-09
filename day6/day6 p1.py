@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 dclr = 1
 Numstore = 0
 muchadoaboutthenothing = []
