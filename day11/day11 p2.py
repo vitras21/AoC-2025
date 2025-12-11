@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 STRT = 'svr'
 END = 'out'
 A = 'dac'
