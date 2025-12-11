@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 import re
 
 # --- Puzzle Input Data (As provided by the user) ---
