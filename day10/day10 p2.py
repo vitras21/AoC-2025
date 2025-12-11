@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 import time
 import re
 from z3 import Int, Optimize, Sum, sat
