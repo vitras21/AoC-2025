@@ -1,3 +1,7 @@
+##                                 ###
+## Solution by vitras21 (Vitaly.R) ###
+##                                 ###
+
 import re
 
 def rotations_and_flips(piece):
